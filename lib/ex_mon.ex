@@ -4,4 +4,6 @@ defmodule ExMon do
   def create_player(name, move_avg, move_rnd, move_heal) do
       Player.build("João", :soco, :chute, :cura)
   end
+
+  def start_game()
 end
